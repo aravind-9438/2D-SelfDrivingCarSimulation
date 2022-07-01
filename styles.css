@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	color: white;
+	background: darkgray;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center ;
+}
+
+#gap{
+	width: 10px;
+}
+
+#btns{
+	display: flex;
+	flex-direction: row;
+	margin-left: 90px;
+	padding: 10px;
+}
+#b1{
+	background-color: #00ff80;
+	float: left;
+	border-radius: 2px;
+	margin-right: 5px;
+
+}
+#b2{
+	background-color: #ff471a;
+	float: right;
+	border-radius: 2px;
+	}
+
+
+
+#carCanvas{
+	background: black;
+}
+#networkCanvas{
+	background: lightblue;
+}
